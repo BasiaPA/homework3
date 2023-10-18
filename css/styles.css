@@ -1,6 +1,118 @@
 body {
   font-family: "Roboto" sans-serif;
-  color: #2e2f42;
+  color: #434455;
 }
 :root {
+  --dark-color: #2e2f42;
+  --primary-brand: #4d5ae5;
+  --white-background: #ffffff;
+  --light-color: #f4f4fd;
+  --cornflower: #e7e9fc;
+  --ocean: #404bbf;
+}
+.logo {
+  font-family: "Raleway";
+  font-weight: 800;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 1.3;
+}
+.logo-iris {
+  color: var(--primary-brand);
+}
+.logo-navy {
+  color: var(--dark-color);
+}
+.pages-navigation a {
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--dark-color);
+}
+.pages-navigation > li {
+  list-style: none;
+}
+
+.pages-navigation a:hover {
+  color: var(--primary-brand);
+  cursor: pointer;
+}
+
+.address-navigation a {
+  color: inherit;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.address-navigation > li {
+  list-style: none;
+}
+.address-navigation a:hover {
+  color: var(--primary-brand);
+  cursor: pointer;
+}
+.head {
+  font-family: inherit;
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 0.4;
+  color: var(--white-background);
+}
+.main-button {
+  background-color: var(--primary-brand);
+  color: var(--white-background);
+}
+
+.four-articles h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--dark-color);
+}
+.four-articles > li {
+  list-style: none;
+}
+.headings {
+  font-size: 36px;
+  line-height: 1.5;
+  font-family: inherit;
+  font-weight: 700;
+  color: var(--dark-color);
+}
+.out-dots {
+  list-style: none;
+}
+.out-dots h3 {
+  color: var(--dark-color);
+  font-size: 20px;
+  font-weight: 500;
+  font-family: inherit;
+  line-height: 1.2;
+}
+.out-dots p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.footer-article {
+  color: var(--light-color);
+  line-height: 1.5;
+}
+.buttons-list button {
+  background-color: var(--cornflower);
+  color: var(--primary-brand);
+}
+.buttons-list > li {
+  list-style: none;
+}
+.buttons-list button:hover {
+  background-color: var(--ocean);
+  color: var(--white-background);
+}
+.pictures-list h3 {
+  color: var(--dark-color);
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
 }
