@@ -1,6 +1,7 @@
 body {
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
+  background-color: #ffffff;
 }
 :root {
   --dark-color: #2e2f42;
@@ -11,108 +12,137 @@ body {
   --ocean: #404bbf;
 }
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 18px;
-  line-height: 1.3;
-}
-.logo-iris {
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   color: var(--primary-brand);
 }
 .logo-navy {
   color: var(--dark-color);
 }
-.pages-navigation a {
-  font-weight: 400;
+.link {
   text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.list-item {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--dark-color);
 }
-.pages-navigation > li {
-  list-style: none;
-}
 
-.pages-navigation a:hover {
-  color: var(--primary-brand);
+.list-item .link:hover,
+.list-item .link:focus {
+  color: var(--ocean);
   cursor: pointer;
 }
 
-.address-navigation a {
-  color: inherit;
-  font-weight: 400;
-  text-decoration: none;
+.contact-list {
+  font-style: normal;
+}
+
+.address-list {
   font-size: 16px;
   line-height: 1.5;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  color: inherit;
 }
-.address-navigation > li {
-  list-style: none;
-}
-.address-navigation a:hover {
-  color: var(--primary-brand);
+
+.address-list:hover,
+.address-list:focus {
+  color: var(--ocean);
   cursor: pointer;
 }
+.main-part {
+  background-color: var(--dark-color);
+}
 .head {
-  font-family: inherit;
   font-size: 56px;
   font-weight: 900;
-  line-height: 0.4;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
   color: var(--white-background);
 }
 .main-button {
   background-color: var(--primary-brand);
   color: var(--white-background);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.main-button:hover,
+.main-button:focus {
+  background-color: var(--ocean);
+  cursor: pointer;
 }
 
-.four-articles h3 {
+.four-articles {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--dark-color);
 }
-.four-articles > li {
-  list-style: none;
+.article {
+  line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.team-section {
+  background-color: var(--light-color);
 }
 .headings {
   font-size: 36px;
-  line-height: 1.5;
+  line-height: 1.11;
   font-family: inherit;
   font-weight: 700;
   color: var(--dark-color);
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
-.out-dots {
-  list-style: none;
+
+.footer-item {
+  background-color: var(--dark-color);
 }
-.out-dots h3 {
-  color: var(--dark-color);
-  font-size: 20px;
-  font-weight: 500;
-  font-family: inherit;
-  line-height: 1.2;
-}
-.out-dots p {
-  font-size: 16px;
-  line-height: 1.5;
-}
+
 .footer-article {
   color: var(--light-color);
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-.buttons-list button {
+
+.buttons-list {
   background-color: var(--cornflower);
   color: var(--primary-brand);
 }
-.buttons-list > li {
-  list-style: none;
+
+.button-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--primary-brand);
+  background-color: var(--light-color);
 }
-.buttons-list button:hover {
+
+.buttons-portfolio:hover,
+.button-portfolio:focus {
   background-color: var(--ocean);
   color: var(--white-background);
-}
-.pictures-list h3 {
-  color: var(--dark-color);
-  font-size: 20px;
-  line-height: 1.2;
-  font-weight: 500;
+  cursor: pointer;
 }
