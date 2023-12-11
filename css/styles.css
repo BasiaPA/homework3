@@ -20,8 +20,8 @@ body {
 }
 .container {
   max-width: 1158px;
-  margin-inline: auto;
-  padding-inline: 15 px;
+  margin: 0 auto;
+  padding: 0 15 px;
 }
 .section {
   padding-block: 120px;
@@ -57,6 +57,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--primary-brand);
+  margin-right: 76px;
 }
 .logo-navy {
   color: var(--dark-color);
@@ -81,7 +82,6 @@ ul {
 .settings {
   display: flex;
   align-items: center;
-  gap: 76px;
 }
 
 .list-item {
@@ -90,6 +90,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--dark-color);
+  padding: 24px 0;
 }
 
 .list-item:hover,
@@ -118,7 +119,9 @@ ul {
 }
 .main-part {
   background-color: var(--dark-color);
+  padding: 188px 0;
 }
+
 .head {
   font-size: 56px;
   font-weight: 900;
@@ -126,8 +129,8 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--white-background);
-  margin-bottom: 48px;
-  margin-top: 191px;
+  display: block;
+  justify-content: center;
 }
 .main-button {
   background-color: var(--primary-brand);
@@ -137,15 +140,12 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   border: none;
   border-radius: 4px;
-
+  cursor: pointer;
   display: block;
-  text-align: center;
-  margin: auto;
-  margin-bottom: 185px;
 }
 .main-button:hover,
 .main-button:focus {
@@ -162,12 +162,9 @@ ul {
 .articles-list {
   gap: 24px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
 }
-.article-list:first-child {
-  padding-left: 0;
+.lorem {
+  width: calc((100%-72px) / 4);
 }
 .four-articles {
   font-weight: 500;
@@ -177,7 +174,7 @@ ul {
   color: var(--dark-color);
   justify-content: center;
   align-items: center;
-  margin: auto;
+  margin-bottom: 8px;
 }
 .article {
   line-height: 1.5;
@@ -185,11 +182,6 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
   padding-top: 8px;
-  display: block;
-  width: 264px;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
 }
 .team-section {
   background-color: var(--light-color);
@@ -200,11 +192,13 @@ ul {
   flex-direction: column;
 
   align-items: center;
+  width: calc((100%-72px) / 4);
 }
 .team-position {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  gap: 24px;
 }
 .headings {
   font-size: 36px;
@@ -222,6 +216,9 @@ ul {
   justify-content: center;
   gap: 24px;
 }
+.picture {
+  width: calc((100%-48px) / 3);
+}
 .surname {
   margin-top: 32px;
   margin-bottom: 8px;
@@ -235,6 +232,7 @@ ul {
 }
 .footer-item {
   background-color: var(--dark-color);
+  padding: 100px 0;
 }
 
 .footer-article {
@@ -250,6 +248,12 @@ ul {
 }
 .logo-position {
   margin-top: 101.5px;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.portfolio-page {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 .button-portfolio {
   font-family: inherit;
@@ -270,22 +274,25 @@ ul {
   background-color: var(--ocean);
   color: var(--white-background);
   cursor: pointer;
+  border: 1px solid transparent;
 }
 .button-list {
   margin-top: 96px;
   margin-bottom: 72px;
   display: flex;
   justify-content: center;
+  gap: 24px;
 }
 .portfolio-images {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .portfolio-image {
-  margin-right: 24px;
-  margin-bottom: 48px;
+  width: calc((100%-48px) / 3);
   display: block;
 }
 .aspect {
@@ -304,7 +311,7 @@ ul {
   display: block;
   flex-direction: column;
 
-  align-items: flex-start;
+  align-items: center;
 }
 .box {
   height: 120px;
@@ -316,4 +323,5 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  padding: 32px 16px;
 }
