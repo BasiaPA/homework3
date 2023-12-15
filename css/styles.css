@@ -21,7 +21,6 @@ body {
 .container {
   max-width: 1158px;
   margin: 0 auto;
-  padding: 0 15 px;
 }
 .section {
   padding-block: 120px;
@@ -129,8 +128,6 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--white-background);
-  display: block;
-  justify-content: center;
 }
 .main-button {
   background-color: var(--primary-brand);
@@ -146,17 +143,13 @@ ul {
   border-radius: 4px;
   cursor: pointer;
   display: block;
+  margin: 0 auto;
+  margin-top: 48px;
 }
 .main-button:hover,
 .main-button:focus {
   background-color: var(--ocean);
   cursor: pointer;
-}
-.article-section {
-  display: block;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
 }
 
 .articles-list {
@@ -172,8 +165,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark-color);
-  justify-content: center;
-  align-items: center;
+
   margin-bottom: 8px;
 }
 .article {
@@ -181,7 +173,6 @@ ul {
   font-size: 16px;
   letter-spacing: 0.02em;
   color: #434455;
-  padding-top: 8px;
 }
 .team-section {
   background-color: var(--light-color);
