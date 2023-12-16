@@ -23,8 +23,8 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
-.section {
-  padding-block: 120px;
+.section-two {
+  padding: 120px 0;
 }
 
 .visually-hidden {
@@ -126,14 +126,14 @@ ul {
   color: var(--ocean);
   cursor: pointer;
 }
-.main-part {
+.section-one {
   background-color: var(--dark-color);
   padding: 188px 0;
 }
 
 .head {
   font-size: 56px;
-  width: 496px;
+  max-width: 496px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
@@ -185,6 +185,10 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.section-four {
+  padding: 120px 0;
+}
+
 .team-section {
   background-color: var(--light-color);
 }
@@ -201,6 +205,9 @@ ul {
   justify-content: space-evenly;
   align-items: center;
   gap: 24px;
+}
+.section-three {
+  padding-bottom: 120px;
 }
 .headings {
   font-size: 36px;
