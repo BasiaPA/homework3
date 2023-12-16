@@ -233,7 +233,7 @@ ul {
   text-align: center;
 }
 .job-position {
-  align-items: center;
+  text-align: center;
 }
 .footer-item {
   background-color: var(--dark-color);
@@ -270,7 +270,7 @@ ul {
   background-color: var(--light-color);
   padding: 12px 24px;
   border-radius: 4px;
-  border: 1px solid var(--light-color);
+  border: 1px solid var(--cornflower);
 }
 
 .button-portfolio:hover,
