@@ -182,7 +182,7 @@ ul {
 .article {
   line-height: 1.5;
   font-size: 16px;
-  letter-spacing: 0.02em;
+
   color: #434455;
 }
 .section-four {
@@ -249,10 +249,8 @@ ul {
 }
 .footer-position {
   display: block;
-  margin-left: 156px;
 }
 .logo-position {
-  margin-top: 101.5px;
   display: inline-block;
   margin-bottom: 16px;
 }
@@ -285,7 +283,6 @@ ul {
   display: flex;
   justify-content: center;
   gap: 24px;
-  border: 1px solid var(--cornflower);
 }
 .portfolio-images {
   display: flex;
@@ -297,14 +294,8 @@ ul {
 .portfolio-image {
   width: calc((100% - 48px) / 3);
 }
-.aspect {
-  margin-top: 32px;
-  margin-bottom: 8px;
-  margin-left: 16px;
-}
+
 .setup {
-  margin-bottom: 32px;
-  margin-left: 16px;
   line-height: 1.5;
   font-size: 16px;
   letter-spacing: 0.02em;
@@ -316,7 +307,6 @@ ul {
   align-items: center;
 }
 .box {
-  height: 120px;
   border-bottom: 1px solid var(--cornflower);
   border-right: 1px solid var(--cornflower);
   border-left: 1px solid var(--cornflower);
