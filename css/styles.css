@@ -309,8 +309,6 @@ ul {
   border-left: 1px solid var(--cornflower);
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+
   padding: 32px 16px;
 }
